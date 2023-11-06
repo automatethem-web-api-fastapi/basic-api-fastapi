@@ -4,6 +4,6 @@ call %root%\Scripts\activate.bat %root%
 ::call conda activate base
 ::call cd C:\Users\Administrator\app
 call cd ..
-::uvicorn main:fast_api --reload --port 8000
-uvicorn main:fast_api --reload
+::uvicorn main:app --reload --port 8000
+uvicorn main:app --reload
 pause
