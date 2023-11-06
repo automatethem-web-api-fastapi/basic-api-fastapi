@@ -2,11 +2,13 @@
 
 https://github.com/automatethem-python-api-reflex/basic-api-reflex/tree/main
 
-http://localhost:8000/docs
+https://github.com/render-examples/fastapi
 
 ```
 uvicorn main:fast_api --reload --host 0.0.0.0
 ```
+
+http://localhost:8000/docs
 
 ## 추가 정보
 
