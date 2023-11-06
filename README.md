@@ -4,6 +4,10 @@ https://github.com/automatethem-python-api-reflex/basic-api-reflex/tree/main
 
 http://localhost:8000/docs
 
+```
+uvicorn main:fast_api --reload --host 0.0.0.0
+```
+
 ## 추가 정보
 
 ## 원본 Api
