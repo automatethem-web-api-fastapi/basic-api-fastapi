@@ -1,4 +1,6 @@
 #pip install -r requirements.txt
+fastapi
+uvicorn
 python-supporter
 librosa
 soundfile
