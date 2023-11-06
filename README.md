@@ -147,3 +147,6 @@ curl https://automatethem.net:8000/api/basic-api-fastapi/api \
 ```
 
 ## render
+
+https://basic-api-fastapi.onrender.com/  
+https://basic-api-fastapi.onrender.com/docs
