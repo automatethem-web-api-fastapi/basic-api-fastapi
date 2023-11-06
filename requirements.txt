@@ -1,0 +1,6 @@
+#pip install -r requirements.txt
+python-supporter
+librosa
+soundfile
+python-dotenv
+rest-api-supporter
