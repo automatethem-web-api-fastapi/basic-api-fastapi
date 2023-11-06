@@ -20,5 +20,5 @@ async def api(request_data: RequestData):
     prediction = [{'label': 'pos', 'score': 0.8038843274116516}]
     return prediction
 
-def register(fast_api):
-    fast_api.add_api_route(path="/api/basic-api-fastapi/api", endpoint=api, methods=["POST"])
+def register(app):
+    app.add_api_route(path="/api/basic-api-fastapi/api", endpoint=api, methods=["POST"])
