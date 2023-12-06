@@ -25,5 +25,5 @@ async def post(request_data: RequestData):
     return prediction
     
 def register(app):
-    app.add_api_route(path="/api/basic-api-fastapi/get", endpoint=api, methods=["GET"])
-    app.add_api_route(path="/api/basic-api-fastapi/post", endpoint=api, methods=["POST"])
+    app.add_api_route(path="/api/basic-api-fastapi/api", endpoint=get, methods=["GET"])
+    app.add_api_route(path="/api/basic-api-fastapi/api", endpoint=post, methods=["POST"])
