@@ -153,6 +153,7 @@ https://www.youtube.com/watch?v=PKEaFjMdsqA
 https://abdadeel.medium.com/deploy-fastapi-app-on-vercel-serverless-b9fc35bba74d  
 Deploying FastAPI app on Vercel Serverless  
 https://dev.to/abdadeel/deploying-fastapi-app-on-vercel-serverless-18b1  
+!!  
 https://github.com/mabdullahadeel/vercel-fastapi-deployment
 
 deploy-python-fastapi-in-vercel  
