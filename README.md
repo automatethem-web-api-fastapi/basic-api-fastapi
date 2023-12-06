@@ -146,6 +146,12 @@ curl https://automatethem.net:8000/api/basic-api-fastapi/api \
 ```
 ```
 
+참고)
+
+'''
+app.mount("/", StaticFiles(directory="static"), name="static")
+'''
+
 # vercel
 
 https://basic-api-fastapi.vercel.app/api/basic-api-fastapi/api?inputs=hello
