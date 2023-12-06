@@ -148,6 +148,13 @@ curl https://automatethem.net:8000/api/basic-api-fastapi/api \
 
 # vercel
 
+https://basic-api-fastapi.vercel.app/api/basic-api-fastapi/api?inputs=hello
+```
+[{"label":"pos","score":0.8038843274116516}]
+```
+
+https://basic-api-fastapi.vercel.app/docs
+
 FastAPI DEPLOY TO VERCEL IN 5 Minutes  
 https://www.youtube.com/watch?v=PKEaFjMdsqA  
 https://abdadeel.medium.com/deploy-fastapi-app-on-vercel-serverless-b9fc35bba74d  
