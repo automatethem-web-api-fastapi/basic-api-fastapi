@@ -4,8 +4,8 @@ uvicorn
 
 python-supporter
 python-dotenv
-#rest-api-supporter
-#transformers==4.29.2
+rest-api-supporter
+transformers==4.29.2
 #transformers-supporter
 #scikit-learn
 #torch
