@@ -5,7 +5,7 @@ https://github.com/automatethem-python-api-reflex/basic-api-reflex/tree/main
 https://github.com/render-examples/fastapi
 
 ```
-uvicorn main:fast_api --reload --host 0.0.0.0
+uvicorn main:app --reload --host 0.0.0.0
 ```
 
 http://localhost:8000/docs
