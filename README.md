@@ -20,10 +20,10 @@ http://localhost:8000/docs
 
 ### text input
 
-http://localhost:8000/api/basic-api-fastapi/api  
-https://automatethem.net:8000/api/basic-api-fastapi/api
+http://localhost:8000/api  
+https://automatethem.net:8000/api
 ```
-curl http://localhost:8000/api/basic-api-fastapi/api \
+curl http://localhost:8000/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -42,7 +42,7 @@ curl http://localhost:8000/api/basic-api-fastapi/api \
 ```
 
 ```
-curl https://automatethem.net:8000/api/basic-api-fastapi/api \
+curl https://automatethem.net:8000/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -53,10 +53,10 @@ curl https://automatethem.net:8000/api/basic-api-fastapi/api \
 
 ### image input
 
-http://localhost:8000/api/basic-api-fastapi/api  
-https://automatethem.net:8000/api/basic-api-fastapi/api
+http://localhost:8000/api  
+https://automatethem.net:8000/api
 ```
-curl http://localhost:8000/api/basic-api-fastapi/api \
+curl http://localhost:8000/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -75,7 +75,7 @@ curl http://localhost:8000/api/basic-api-fastapi/api \
 ```
 
 ```
-curl https://automatethem.net:8000/api/basic-api-fastapi/api \
+curl https://automatethem.net:8000/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -93,10 +93,10 @@ curl https://automatethem.net:8000/api/basic-api-fastapi/api \
 
 ### audio input
 
-http://localhost:8000/api/basic-api-fastapi/api  
-https://automatethem.net:8000/api/basic-api-fastapi/api
+http://localhost:8000/api  
+https://automatethem.net:8000/api
 ```
-curl http://localhost:8000/api/basic-api-fastapi/api \
+curl http://localhost:8000/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -115,7 +115,7 @@ curl http://localhost:8000/api/basic-api-fastapi/api \
 ```
 
 ```
-curl https://automatethem.net:8000/api/basic-api-fastapi/api \
+curl https://automatethem.net:8000/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -156,7 +156,7 @@ app.mount("/", StaticFiles(directory="static"), name="static")
 
 # vercel
 
-https://basic-api-fastapi.vercel.app/api/basic-api-fastapi/api?inputs=hello
+https://basic-api-fastapi.vercel.app/api?inputs=hello
 ```
 [{"label":"pos","score":0.8038843274116516}]
 ```
