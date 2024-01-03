@@ -10,7 +10,7 @@ import os
 import asyncio
 
 #app = FastAPI()
-app = FastAPI(docs_url="/fastapi/api/docs", openapi_url="/fastapi/api/openapi.json")
+app = FastAPI(docs_url="/fastapi/docs", openapi_url="/fastapi/openapi.json")
 
 class RequestData(BaseModel):
     inputs: Union[Any, Dict]
