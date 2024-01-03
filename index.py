@@ -26,5 +26,5 @@ async def post(request_data: RequestData):
     prediction = [{'label': 'pos', 'score': 0.8038843274116516}]
     return prediction
 
-app.add_api_route(path="/api", endpoint=get, methods=["GET"])
-app.add_api_route(path="/api", endpoint=post, methods=["POST"])
+app.add_api_route(path="/fastapi/api", endpoint=get, methods=["GET"])
+app.add_api_route(path="/fastapi/api", endpoint=post, methods=["POST"])
