@@ -10,7 +10,7 @@ https://github.com/render-examples/fastapi
 uvicorn index:app --reload
 ```
 
-http://localhost:8000/docs
+http://localhost:8000/fastapi/docs
 
 ## 추가 정보
 
@@ -20,10 +20,10 @@ http://localhost:8000/docs
 
 ### text input
 
-http://localhost:8000/api  
-https://automatethem.net:8000/api
+http://localhost:8000/fastapi/api  
+https://automatethem.net:8000/fastapi/api
 ```
-curl http://localhost:8000/api \
+curl http://localhost:8000/fastapi/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -42,7 +42,7 @@ curl http://localhost:8000/api \
 ```
 
 ```
-curl https://automatethem.net:8000/api \
+curl https://automatethem.net:8000/fastapi/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
