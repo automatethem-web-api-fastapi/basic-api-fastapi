@@ -5,9 +5,9 @@ https://github.com/automatethem-python-api-reflex/basic-api-reflex/tree/main
 https://github.com/render-examples/fastapi
 
 ```
-#uvicorn main:app --host 0.0.0.0
-#uvicorn main:app --host 0.0.0.0 --port 8000
-uvicorn main:app --reload
+#uvicorn index:app --host 0.0.0.0
+#uvicorn index:app --host 0.0.0.0 --port 8000
+uvicorn index:app --reload
 ```
 
 http://localhost:8000/docs
