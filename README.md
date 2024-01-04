@@ -10,7 +10,7 @@ https://github.com/render-examples/fastapi
 uvicorn index:app --reload
 ```
 
-http://localhost:8000/fastapi/docs
+http://localhost:8000/api/fastapi/docs
 
 ## 추가 정보
 
@@ -20,10 +20,10 @@ http://localhost:8000/fastapi/docs
 
 ### text input
 
-http://localhost:8000/fastapi/api  
-https://automatethem.net:8000/fastapi/api
+http://localhost:8000/api/fastapi/api  
+https://automatethem.net:8000/api/fastapi/api
 ```
-curl http://localhost:8000/fastapi/api \
+curl http://localhost:8000/api/fastapi/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -42,7 +42,7 @@ curl http://localhost:8000/fastapi/api \
 ```
 
 ```
-curl https://automatethem.net:8000/fastapi/api \
+curl https://automatethem.net:8000/api/fastapi/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -53,10 +53,10 @@ curl https://automatethem.net:8000/fastapi/api \
 
 ### image input
 
-http://localhost:8000/fastapi/api  
-https://automatethem.net:8000/fastapi/api
+http://localhost:8000/api/fastapi/api  
+https://automatethem.net:8000/api/fastapi/api
 ```
-curl http://localhost:8000/fastapi/api \
+curl http://localhost:8000/api/fastapi/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -75,7 +75,7 @@ curl http://localhost:8000/fastapi/api \
 ```
 
 ```
-curl https://automatethem.net:8000/fastapi/api \
+curl https://automatethem.net:8000/api/fastapi/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -93,10 +93,10 @@ curl https://automatethem.net:8000/fastapi/api \
 
 ### audio input
 
-http://localhost:8000/fastapi/api  
-https://automatethem.net:8000/fastapi/api
+http://localhost:8000/api/fastapi/api  
+https://automatethem.net:8000/api/fastapi/api
 ```
-curl http://localhost:8000/fastapi/api \
+curl http://localhost:8000/api/fastapi/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -115,7 +115,7 @@ curl http://localhost:8000/fastapi/api \
 ```
 
 ```
-curl https://automatethem.net:8000/fastapi/api \
+curl https://automatethem.net:8000/api/fastapi/api \
 -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer AUTOMATETHEM" \
@@ -156,12 +156,12 @@ app.mount("/", StaticFiles(directory="static"), name="static")
 
 # vercel
 
-https://basic-api-fastapi.vercel.app/fastapi/api?inputs=hello
+https://basic-api-fastapi.vercel.app/api/fastapi/api?inputs=hello
 ```
 [{"label":"pos","score":0.8038843274116516}]
 ```
 
-https://basic-api-fastapi.vercel.app/fastapi/docs
+https://basic-api-fastapi.vercel.app/api/fastapi/api/docs
 
 FastAPI DEPLOY TO VERCEL IN 5 Minutes  
 https://www.youtube.com/watch?v=PKEaFjMdsqA  
@@ -176,7 +176,7 @@ https://github.com/hebertcisco/deploy-python-fastapi-in-vercel
 
 ## render
 
-https://basic-api-fastapi.onrender.com/fastapi/docs  
+https://basic-api-fastapi.onrender.com/api/fastapi/api/docs  
 https://render.com/  
 
 https://uptimerobot.com/dashboard#795614790
