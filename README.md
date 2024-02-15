@@ -14,7 +14,7 @@ http://localhost:8000/api/fastapi/docs
 
 ## 추가 정보
 
-## 원본 Api
+## models
 
 ## 엔드 포인트
 
