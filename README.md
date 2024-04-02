@@ -176,6 +176,10 @@ https://github.com/hebertcisco/deploy-python-fastapi-in-vercel
 
 ## render
 
+## 참고 자료
+
+Error: Unable to find any supported Python versions.  
+https://stackoverflow.com/a/78256079
 https://basic-api-fastapi.onrender.com/api/fastapi/api/docs  
 https://render.com/  
 
