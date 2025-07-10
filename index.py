@@ -10,20 +10,20 @@ import os
 import asyncio
 
 #app = FastAPI()
-app = FastAPI(docs_url="/api/fastapi/api/docs", openapi_url="/api/fastapi/api/openapi.json")
+app = FastAPI(docs_url="/api/docs", openapi_url="/api/openapi.json")
 
 #'''
 class RequestData(BaseModel):
     inputs: Union[Any, Dict]
     parameters: Optional[Dict]
 
-@app.get("/api/fastapi/api")
+@app.get("/api")
 async def api(inputs):
     print(inputs)
     prediction = [{'label': 'pos', 'score': 0.8038843274116516}]
     return prediction
 
-@app.post("/api/fastapi/api")
+@app.post("/api")
 async def api(request_data: RequestData):
     inputs = request_data.json()
     inputs = json.loads(inputs)
@@ -46,6 +46,6 @@ async def post(request_data: RequestData):
     prediction = [{'label': 'pos', 'score': 0.8038843274116516}]
     return prediction
 
-app.add_api_route(path="/api/fastapi/api", endpoint=get, methods=["GET"])
-app.add_api_route(path="/api/fastapi/api", endpoint=post, methods=["POST"])
+app.add_api_route(path="/api", endpoint=get, methods=["GET"])
+app.add_api_route(path="/api", endpoint=post, methods=["POST"])
 '''
